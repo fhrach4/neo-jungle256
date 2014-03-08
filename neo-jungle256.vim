@@ -1,7 +1,7 @@
 " Vim Color File: neo-jungle256.vim
 " Maintainer:	Frank Hrach <fjh3938@rit.edu>
 " License: public domain
-" Date Last Modified: 12/12/2012
+" Date Last Modified: Sat Mar  8 16:48:39 EST 2014
 "
 " Based off of 256-Jungle by Piotr Husiatyński <phusiatynski@gmail.com>
 " Vim script based off of calmar256-dark by calmar <mac@calmar.ws>
@@ -32,17 +32,33 @@ let s:colors256 = [
 	\["Directory"		, ""		, "57"	, "254"	, ""	, ""],
 	\["ErrorMsg"		, ""		, "160"	, "245"	, ""	, ""],
 	\["PreProc"			, "Bold"	, "243"	, ""	, ""	, ""],
+	\["Include"			, "Bold"	, "243"	, ""	, ""	, ""],
+	\["Define"			, "Bold"	, "243"	, ""	, ""	, ""],
+	\["Macro"			, "Bold"	, "243"	, ""	, ""	, ""],
+	\["Precondit"		, "Bold"	, "243"	, ""	, ""	, ""],
 	\["Search"			, "Bold"	, "125"	, ""	, ""	, ""],
 	\["Type"			, "Bold"	, "166"	, ""	, ""	, ""],
 	\["String"			, ""		, "166"	, ""	, ""	, ""],
 	\["Statement"		, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Conditional"		, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Repeat"			, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Label"			, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Operator"		, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Keyword"			, "Bold"	, "172"	, ""	, ""	, ""],
+	\["Exception"		, "Bold"	, "172"	, ""	, ""	, ""],
 	\["Comment"			, ""		, "22"	, ""	, ""	, ""],
-	\["LineNr"			, ""		, "244"	, ""	, ""	, ""],
+	\["LineNr"			, ""		, "244"	, "233"	, ""	, ""],
 	\["NonText"			, "Bold"	, "105"	, ""	, ""	, ""],
 	\["DiffText"		, ""		, "165"	, "244"	, ""	, ""],
 	\["Constant"		, ""		, "76"	, ""	, ""	, ""],
+	\["String"			, ""		, "76"	, ""	, ""	, ""],
+	\["Character"		, ""		, "76"	, ""	, ""	, ""],
+	\["Number"			, ""		, "76"	, ""	, ""	, ""],
+	\["Boolean"			, ""		, "76"	, ""	, ""	, ""],
+	\["Float"			, ""		, "76"	, ""	, ""	, ""],
 	\["Todo"			, "Bold"	, "202"	, "233"	, ""	, ""],
 	\["Identifier"		, "Bold"	, "142"	, ""	, ""	, ""],
+	\["Function"		, "Bold"	, "142"	, ""	, ""	, ""],
 	\["Error"			, "Bold"	, ""	, "196"	, ""	, ""],
 	\["Special"			, "Bold"	, "172"	, ""	, ""	, ""],
 	\["Ignore"			, "Bold"	, "221"	, ""	, ""	, ""],
@@ -54,18 +70,18 @@ let s:colors256 = [
 	\["BadWhiteSpace"	, ""		, "125"	, "125"	, ""	, ""]]
 
 let s:colorvim7 = [
-	\ ["Pmenu"			, ""			, "60"	, "233"	, ""			, ""	],
-	\ ["PmenuSel"		, "Bold"		, "69"	, "232"	, ""			, ""   	],
-	\ ["PmenuSbar"		, "Bold"		, "247"	, "233"	, ""			, ""   	],
-	\ ["PmenuThumb"		, ""			, "248"	, "233"	, ""			, ""   	],
-	\ ["SpellBad"		, "Underline"	, "15"	, "1"	, "undercurl"	, ""	],
-	\ ["SpellRare"		, ""			, "82"	, "233"	, ""			, ""	],
-	\ ["SpellLocal"		, ""			, "227"	, "234"	, ""			, ""   	],
-	\ ["SpellCap"		, ""			, "46"	, "236"	, ""			, ""   	],
-	\ ["MatchParen"		, "bold"		, "15"	, "22"	, ""			, ""   	],
-	\ ["TabLine"		, ""			, "245"	, "239"	, ""			, ""   	],
-	\ ["TabLineSel"		, "bold"		, "104"	, "136"	, ""			, ""   	],
-	\ ["TabLineFill"	, ""			, "239"	, "239"	, ""			, ""   	]]
+	\ ["Pmenu"		, ""			, "62"	, "233"	, ""			, ""	],
+	\ ["PmenuSel"	, "Bold"		, "69"	, "232"	, ""			, ""   	],
+	\ ["PmenuSbar"	, "Bold"		, "247"	, "233"	, ""			, ""   	],
+	\ ["PmenuThumb"	, ""			, "248"	, "233"	, ""			, ""   	],
+	\ ["SpellBad"	, "Underline"	, "15"	, "1"	, "undercurl"	, ""	],
+	\ ["SpellRare"	, ""			, "82"	, "233"	, ""			, ""	],
+	\ ["SpellLocal"	, ""			, "227"	, "234"	, ""			, ""   	],
+	\ ["SpellCap"	, ""			, "46"	, "236"	, ""			, ""   	],
+	\ ["MatchParen"	, "bold"		, "15"	, "22"	, ""			, ""   	],
+	\ ["TabLine"	, ""			, "245"	, "239"	, ""			, ""   	],
+	\ ["TabLineSel"	, "bold"		, "104"	, "136"	, ""			, ""   	],
+	\ ["TabLineFill", ""			, "239"	, "239"	, ""			, ""   	]]
 
 "============================================================
 "        * NO NEED * to edit below (unless bugfixing)
