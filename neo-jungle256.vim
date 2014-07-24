@@ -38,7 +38,6 @@ let s:colors256 = [
 	\["Precondit"		, "Bold"	, "243"	, ""	, "Bold"	, ""],
 	\["Search"			, "Bold"	, "125"	, ""	, "Bold"	, ""],
 	\["Type"			, "Bold"	, "166"	, ""	, "Bold"	, ""],
-	\["String"			, ""		, "166"	, ""	, ""		, ""],
 	\["Statement"		, "Bold"	, "172"	, ""	, "Bold"	, ""],
 	\["Conditional"		, "Bold"	, "172"	, ""	, "Bold"	, ""],
 	\["Repeat"			, "Bold"	, "172"	, ""	, "Bold"	, ""],
@@ -49,7 +48,6 @@ let s:colors256 = [
 	\["Comment"			, "Italic"	, "22"	, ""	, "Italic"	, ""],
 	\["LineNr"			, ""		, "244"	, "233"	, ""		, ""],
 	\["NonText"			, "Bold"	, "105"	, ""	, "Bold"	, ""],
-	\["DiffText"		, ""		, "165"	, "244"	, ""		, ""],
 	\["Constant"		, ""		, "76"	, ""	, ""		, ""],
 	\["String"			, ""		, "76"	, ""	, ""		, ""],
 	\["Character"		, ""		, "76"	, ""	, ""		, ""],
@@ -67,7 +65,11 @@ let s:colors256 = [
 	\["Folded"			, "Bold"	, "132"	, ""	, "Bold"	, ""],
 	\["Visual"			, ""		, "248"	, "238"	, ""		, ""],
 	\["Number"			, ""		, "23"	, ""	, ""		, ""],
-	\["BadWhiteSpace"	, ""		, "125"	, "125"	, ""		, ""]]
+	\["BadWhiteSpace"	, ""		, "125"	, "125"	, ""		, ""],
+	\["DiffText"		, ""		, "125"	, "248"	, ""		, ""],
+	\["DiffAdd"			, ""		, "253"	, "28"	, ""		, ""],
+	\["DiffChange"		, ""		, "253"	, "56"	, ""		, ""],
+	\["DiffDelete"		, ""		, "253"	, "130"	, ""		, ""]]
 
 let s:colorvim7 = [
 	\ ["Pmenu"			, ""			, "62"	, "233"	, ""			, ""	],
