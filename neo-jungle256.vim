@@ -45,7 +45,7 @@ let s:colors256 = [
 	\["Operator"		, "Bold"	, "172"	, ""	, "Bold"	, ""],
 	\["Keyword"			, "Bold"	, "172"	, ""	, "Bold"	, ""],
 	\["Exception"		, "Bold"	, "172"	, ""	, "Bold"	, ""],
-	\["Comment"			, "Italic"	, "22"	, ""	, "Italic"	, ""],
+	\["Comment"			, "Italic"	, "234"	, "22"	, "Italic"	, ""],
 	\["LineNr"			, ""		, "244"	, "233"	, ""		, ""],
 	\["NonText"			, "Bold"	, "105"	, ""	, "Bold"	, ""],
 	\["Constant"		, ""		, "76"	, ""	, ""		, ""],
